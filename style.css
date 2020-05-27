@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+header {
+  background-color: gray;
+  height: 70px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: 30px;
+}
+
+.category {
+  background-color: gray;
+  margin-right: 5px;
+  padding: 10px;
+}
+
+
+.box-item {
+  background-color: gray;
+  height: 300px;
+  width: 250px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.box-item img {
+  width: 100%;
+  height: auto;
+}
